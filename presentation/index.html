@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mika.do · Une affaire de A à Z</title>
+<meta name="description" content="L'école maternelle des Tilleuls, vue par six métiers, dans Mika.do. 4 minutes.">
+<meta property="og:type" content="video.other">
+<meta property="og:title" content="Mika.do · Une affaire de A à Z">
+<meta property="og:description" content="L'école maternelle des Tilleuls, vue par six métiers, dans Mika.do. 4 minutes.">
+<meta property="og:image" content="https://heyberger-alt.github.io/mika-do-medias/presentation/mika-do-une-affaire-de-a-a-z-miniature.jpg">
+<meta property="og:video" content="https://heyberger-alt.github.io/mika-do-medias/presentation/mika-do-une-affaire-de-a-a-z.mp4">
+<meta property="og:video:type" content="video/mp4">
+<meta name="theme-color" content="#00245c">
+<style>
+  :root {
+    --navy: #00245c;
+    --navy-deep: #001a44;
+    --yellow: #feb407;
+    --white: #ffffff;
+    --soft: #c9d3e6;
+    --font: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; min-height: 100%; background: var(--navy); color: var(--white); font-family: var(--font); }
+  main { max-width: 1080px; margin: 0 auto; padding: 40px 16px 48px; display: flex; flex-direction: column; align-items: center; gap: 28px; text-align: center; }
+  .mark { font-weight: 700; font-size: 22px; letter-spacing: -0.3px; }
+  .mark span { color: var(--yellow); }
+  h1 { margin: 0; font-size: clamp(32px, 6vw, 56px); line-height: 1.05; letter-spacing: -1.2px; text-wrap: balance; }
+  .sub { margin: 10px 0 0; font-size: clamp(16px, 2.2vw, 21px); line-height: 1.45; color: var(--soft); }
+  video { width: 100%; height: auto; aspect-ratio: 16 / 9; background: var(--navy-deep); border-radius: 18px; box-shadow: 0 24px 60px rgba(0, 0, 0, .35); }
+  .actions { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+  .btn { display: inline-block; text-decoration: none; font-weight: 600; font-size: 16px; padding: 13px 26px; border-radius: 980px; }
+  .btn.primary { background: var(--yellow); color: var(--navy); }
+  .btn.ghost { border: 1px solid var(--white); color: var(--white); }
+  .btn:focus-visible { outline: 3px solid var(--yellow); outline-offset: 3px; }
+  footer { font-size: 13px; color: var(--soft); }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark">Mika<span>.do</span></div>
+  <header>
+    <h1>Une affaire de A à Z</h1>
+    <p class="sub">L'école maternelle des Tilleuls, vue par six métiers. 4 minutes.</p>
+  </header>
+  <video controls playsinline preload="metadata" poster="mika-do-une-affaire-de-a-a-z-couverture.jpg">
+    <source src="mika-do-une-affaire-de-a-a-z.mp4" type="video/mp4">
+    <a href="mika-do-une-affaire-de-a-a-z.mp4">Télécharger la vidéo (MP4)</a>
+  </video>
+  <div class="actions">
+    <a class="btn primary" href="https://demo.mika-do.fr">Essayer la démo</a>
+    <a class="btn ghost" href="https://www.mika-do.fr">www.mika-do.fr</a>
+  </div>
+  <footer>Société et personnes fictives · écrans réels de Mika.do</footer>
+</main>
+</body>
+</html>
